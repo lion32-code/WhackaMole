@@ -1,0 +1,2 @@
+rootProject.name = "WhackaMole"
+include ':app'
