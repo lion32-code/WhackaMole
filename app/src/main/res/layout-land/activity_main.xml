@@ -60,11 +60,10 @@
 
         <RelativeLayout
             android:id="@+id/row0"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_width="717dp"
+            android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:orientation="horizontal" />
-
 
         <RelativeLayout
             android:id="@+id/row1"
@@ -81,7 +80,7 @@
                 <ImageView
                     android:id="@+id/imageMole1"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -92,7 +91,7 @@
                 <ImageView
                     android:id="@+id/imageMole2"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -102,8 +101,8 @@
 
                 <ImageView
                     android:id="@+id/imageMole3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="74dp"
+                    android:layout_width="105dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -150,9 +149,9 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
+                android:layout_height="30dp"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="0dp"
+                android:layout_marginBottom="12dp"
                 android:layout_weight="1"
                 android:background="@drawable/backgroun3"></LinearLayout>
 
@@ -173,7 +172,7 @@
                 <ImageView
                     android:id="@+id/imageMole4"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -184,7 +183,7 @@
                 <ImageView
                     android:id="@+id/imageMole5"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -195,7 +194,7 @@
                 <ImageView
                     android:id="@+id/imageMole6"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -240,9 +239,9 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
+                android:layout_height="39dp"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="0dp"
+                android:layout_marginBottom="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/backgroun2"></LinearLayout>
         </RelativeLayout>
@@ -262,7 +261,7 @@
                 <ImageView
                     android:id="@+id/imageMole7"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -273,7 +272,7 @@
                 <ImageView
                     android:id="@+id/imageMole8"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -284,7 +283,7 @@
                 <ImageView
                     android:id="@+id/imageMole9"
                     android:layout_width="105dp"
-                    android:layout_height="80dp"
+                    android:layout_height="65dp"
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
@@ -332,9 +331,9 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
+                android:layout_height="36dp"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="0dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/backgroun1"></LinearLayout>
 

@@ -1,29 +1,45 @@
 package com.example.whackamole;
 
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class StartGame  extends AppCompatActivity {
     public static final String TAG = "StartGame";
-    private Button startbutton;
+    private Button accessibility_custom_action_0button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.startgame);
 
-        startbutton = findViewById(R.id.startbutton);
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
 
-       startbutton.setOnClickListener(new View.OnClickListener() {
+        }
+        else if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE){
+        }
+
+
+
+        accessibility_custom_action_0button = findViewById(R.id.accessibility_custom_action_0button);
+
+        accessibility_custom_action_0button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                openMainActivity();
-               startbutton.setEnabled(false);
+                accessibility_custom_action_0button.setEnabled(true);
             }
     });
     }
@@ -31,4 +47,10 @@ public class StartGame  extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+    public void QuitApp(View view) {
+       StartGame.this.finish();
+        System.exit(0);
+    }
 }
+
+

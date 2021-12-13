@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WhackaMole">
         <activity android:name=".StartGame"
+            android:screenOrientation="sensor"
             android:exported="true">
         <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +20,14 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="sensor"
+            android:configChanges="keyboardHidden|orientation"
             android:exported="true">
         </activity>
+    <activity android:name=".EndActivity"
+        android:screenOrientation="sensor"
+        android:exported="true">
+    </activity>
     </application>
 
 </manifest>
